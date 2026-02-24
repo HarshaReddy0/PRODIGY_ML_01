@@ -3,9 +3,7 @@ import pickle
 from sklearn.linear_model import LinearRegression
 
 # Load dataset
-data = pd.read_csv(
-    r"C:\Users\admin\Downloads\house-prices-advanced-regression-techniques"
-)
+data = pd.read_csv(r"C:\Users\admin\Downloads\house-prices-advanced-regression-techniques\train.csv")
 
 # Select features
 features = ["GrLivArea", "BedroomAbvGr", "FullBath", "HalfBath"]
